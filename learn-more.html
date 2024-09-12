@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- FAQ Components  -->
+    <div class="space-y-4">
+        <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+          <summary
+            class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+          >
+            <h2 class="font-medium">Bagaimana cara checkout/memesannya?</h2>
+      
+            <svg
+              class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+      
+          <p class="mt-4 px-4 leading-relaxed text-gray-700">
+            Anda bisa klik/pilih produk yang ingin anda beli, nanti anda langsung diarahkan ke WhatsApp admin kami
+          </p>
+        </details>
+      
+        <details class="group [&_summary::-webkit-details-marker]:hidden">
+          <summary
+            class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+          >
+            <h2 class="font-medium">Pelayanan dan proses produk anda</h2>
+      
+            <svg
+              class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+      
+          <p class="mt-4 px-4 leading-relaxed text-gray-700">
+            Kami melayani metode pembayaran COD (Cash On Delivery) 
+            lebih tepatnya pembayaran ditempat lokasi anda, 
+            Untuk proses barang pesanan anda akan membutuhkan waktu kurang lebih 2-3 hari.
+          </p>
+        </details>
+      </div>
+    <!-- end FAQ Components -->
+
+    <!-- thanks for you -->
+    <section class="rounded-3xl shadow-2xl">
+        <div class="p-30 text-center sm:p-24">
+          <p class="text-sm font-semibold uppercase tracking-widest text-pink-500">
+            Your order is on the way
+          </p>
+      
+          <h2 class="mt-6 text-3xl font-bold">Thanks for your purchase, we're getting it ready!</h2>
+      
+          <a
+            class="mt-8 inline-block w-full rounded-full bg-pink-600 py-4 text-sm font-bold text-white shadow-xl"
+            href="cari-barang.html"
+          >
+            Beli Sekarang
+          </a>
+        </div>
+      </section>
+    <!--end thanks for you -->
+
+    <!--popup-->
+    <aside
+    class="fixed bottom-4 end-4 z-50 flex items-center justify-center gap-4 rounded-lg bg-black px-5 py-3 text-white"
+  >
+    <a href="promo.html" target="_blank" rel="noreferrer" class="text-sm font-medium hover:opacity-75">
+      Hey! Come Check This Out 👋
+    </a>
+  
+    <button class="rounded bg-white/20 p-1 hover:bg-white/10">
+      <span class="sr-only">Close</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="size-4" viewBox="0 0 20 20" fill="currentColor">
+        <path
+          fillRule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </button>
+  </aside>
+    <!--end popup-->
+
+    <!-- button home and back-->
+    <!-- Base -->
+
+<a
+class="inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500"
+href="index.html"
+>
+Home
+</a>
+
+<!-- Border -->
+
+<a
+class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-indigo-600 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-indigo-500"
+href="cari-barang.html"
+>
+Back
+</a>
+<!-- end button and back-->
+
+    
+</body>
+</html>
